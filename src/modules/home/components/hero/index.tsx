@@ -1,5 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button, Heading } from "@medusajs/ui"
+import {Button} from "@nextui-org/react";
 
 const Hero = () => {
   return (
@@ -20,12 +21,11 @@ const Hero = () => {
           </Heading>
         </span>
         <a
-          href="https://github.com/medusajs/nextjs-starter-medusa"
+          href="/store" // Zmieniono adres przekierowania
           target="_blank"
         >
-          <Button variant="secondary">
-            View on GitHub
-            <Github />
+          <Button color="primary" variant="shadow">
+            Check our style
           </Button>
         </a>
       </div>
