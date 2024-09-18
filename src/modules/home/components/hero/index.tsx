@@ -20,7 +20,7 @@ const Hero = () => {
           </Heading>
         </span>
         <a
-          href="https://github.com/medusajs/nextjs-starter-medusa"
+          href="/store"
           target="_blank"
         >
           <Button variant="secondary">
