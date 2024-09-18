@@ -25,7 +25,7 @@ export default async function Nav() {
             data-testid="store-link"
           >
             {/* LORIII */}
-            <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285988304612753540/lori.png?ex=66ec4570&is=66eaf3f0&hm=ab037453a2624f57ff56bbbc06ed20f013973450c79a36c4b12c1d88d08f441f&" alt="Medusa Store" />
+            <img src="https://tiny.pl/722z006k" alt="Medusa Store" />
           </LocalizedClientLink>
           </div>
 
