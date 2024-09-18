@@ -30,7 +30,7 @@ const Hero = () => {
         </a>
       </div>
       <div className="absolute inset-0 w-full h-full">
-        <img src="https://tiny.pl/722z006k" alt="Obrazek z Discorda" className="w-full h-full object-cover" />
+        <img src="https://tiny.pl/16zyctqj" alt="Obrazek z Discorda" className="w-full h-full object-cover" />
       </div>
     </div>
   )
