@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
-import { Button, Heading } from "@medusajs/ui"
-import {Button} from "@nextui-org/react";
+import { Button as MedusaButton, Heading } from "@medusajs/ui"
+import { Button } from "@nextui-org/react";
 
 const Hero = () => {
   return (
@@ -24,9 +24,9 @@ const Hero = () => {
           href="/store" // Zmieniono adres przekierowania
           target="_blank"
         >
-          <Button color="primary" variant="shadow">
+          <MedusaButton color="primary" variant="shadow">
             Check our style
-          </Button>
+          </MedusaButton>
         </a>
       </div>
       <div className="absolute inset-0 w-full h-full">
