@@ -20,12 +20,13 @@ export default async function Nav() {
 
           <div className="flex items-center h-full">
             <LocalizedClientLink
-              href="/"
-              className="txt-compact-xlarge-plus hover:text-ui-fg-base uppercase"
-              data-testid="nav-store-link"
-            >
-              Medusa Store
-            </LocalizedClientLink>
+            href="/"
+            className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
+            data-testid="store-link"
+          >
+            {/* LORIII */}
+            <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285988304612753540/lori.png?ex=66ec4570&is=66eaf3f0&hm=ab037453a2624f57ff56bbbc06ed20f013973450c79a36c4b12c1d88d08f441f&" alt="Medusa Store" />
+          </LocalizedClientLink>
           </div>
 
           <div className="flex items-center gap-x-6 h-full flex-1 basis-0 justify-end">

@@ -15,11 +15,13 @@ export default async function Footer() {
         <div className="flex flex-col gap-y-6 xsmall:flex-row items-start justify-between py-40">
           <div>
             <LocalizedClientLink
-              href="/"
-              className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
-            >
-              Medusa Store
-            </LocalizedClientLink>
+            href="/"
+            className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
+            data-testid="store-link"
+          >
+            {/* LORIII */}
+            <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285988304612753540/lori.png?ex=66ec4570&is=66eaf3f0&hm=ab037453a2624f57ff56bbbc06ed20f013973450c79a36c4b12c1d88d08f441f&" alt="Medusa Store" />
+          </LocalizedClientLink>
           </div>
           <div className="text-small-regular gap-10 md:gap-x-16 grid grid-cols-2 sm:grid-cols-3">
             {product_categories && product_categories?.length > 0 && (
