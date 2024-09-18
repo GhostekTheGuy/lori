@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
-import { Button as MedusaButton, Heading } from "@medusajs/ui"
-import Image from 'next/image';
+import { Button, Heading } from "@medusajs/ui"
+
 
 const Hero = () => {
   return (
@@ -21,21 +21,17 @@ const Hero = () => {
           </Heading>
         </span>
         <a
-          href="/store" // Zmieniono adres przekierowania
+          href="https://github.com/medusajs/nextjs-starter-medusa"
           target="_blank"
         >
-          <MedusaButton color="primary" variant="shadow">
-            Check our style
-          </MedusaButton>
+          <Button variant="secondary">
+            View on GitHub
+            <Github />
+          </Button>
         </a>
       </div>
       <div className="absolute inset-0 w-full h-full">
-        <Image 
-          src="https://cdn.discordapp.com/attachments/1285889428929253386/1285976654602174536/kanapa.png?ex=66ec3a96&is=66eae916&hm=411d0c7fd3d87ccdd67e9cffc94674e4630dc853afbdb307b93298a9f1f002e2&" 
-          alt="Obrazek z Discorda" 
-          layout="fill" 
-          objectFit="cover"
-        />
+        <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285976654602174536/kanapa.png?ex=66ec3a96&is=66eae916&hm=411d0c7fd3d87ccdd67e9cffc94674e4630dc853afbdb307b93298a9f1f002e2&" alt="Obrazek z Discorda" className="w-full h-full object-cover" />
       </div>
     </div>
   )
