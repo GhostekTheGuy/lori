@@ -29,7 +29,8 @@ export default function CheckoutLayout({
             className="txt-compact-xlarge-plus text-ui-fg-subtle hover:text-ui-fg-base uppercase"
             data-testid="store-link"
           >
-            Medusa Store
+            {/* LORIII */}
+            <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285988304612753540/lori.png?ex=66ec4570&is=66eaf3f0&hm=ab037453a2624f57ff56bbbc06ed20f013973450c79a36c4b12c1d88d08f441f&" alt="Medusa Store" />
           </LocalizedClientLink>
           <div className="flex-1 basis-0" />
         </nav>
