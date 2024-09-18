@@ -1,6 +1,6 @@
 import { Github } from "@medusajs/icons"
 import { Button as MedusaButton, Heading } from "@medusajs/ui"
-import { Button } from "@nextui-org/react";
+import Image from 'next/image';
 
 const Hero = () => {
   return (
@@ -30,7 +30,12 @@ const Hero = () => {
         </a>
       </div>
       <div className="absolute inset-0 w-full h-full">
-        <img src="https://cdn.discordapp.com/attachments/1285889428929253386/1285976654602174536/kanapa.png?ex=66ec3a96&is=66eae916&hm=411d0c7fd3d87ccdd67e9cffc94674e4630dc853afbdb307b93298a9f1f002e2&" alt="Obrazek z Discorda" className="w-full h-full object-cover" />
+        <Image 
+          src="https://cdn.discordapp.com/attachments/1285889428929253386/1285976654602174536/kanapa.png?ex=66ec3a96&is=66eae916&hm=411d0c7fd3d87ccdd67e9cffc94674e4630dc853afbdb307b93298a9f1f002e2&" 
+          alt="Obrazek z Discorda" 
+          layout="fill" 
+          objectFit="cover"
+        />
       </div>
     </div>
   )
